@@ -1,98 +1,45 @@
-# Data Automation - Mahkamah Agung Scraper
+Data Automation
 
-## Overview
+Python automation project for retrieving and downloading court-related documents from the Mahkamah Agung (Supreme Court of Indonesia) website.
 
-This project is a Python-based web automation and data extraction tool designed to automate the retrieval of public information from the Indonesian Supreme Court (Mahkamah Agung) website. The automation streamlines repetitive data collection processes, reduces manual effort, and improves efficiency when accessing and downloading court-related documents.
+Key Features
 
-## Features
+- Automated website navigation
+- Automated document retrieval
+- Automated file downloading
+- Organized storage of downloaded files
 
-* Automated website navigation
-* Automated search and data retrieval
-* Automated document downloading
-* File organization and storage
-* Reduced manual data collection process
-* Repeatable and scalable automation workflow
+Tech Stack
+- Python
+- Playwright
+- SeleniumBase
 
-## Technologies Used
+Project Structure
 
-* Python
-* Playwright
-* SeleniumBase
-* Web Automation
-* Data Extraction
-
-## Project Structure
-
-```text
-playwright-ma/
-│
+text
+Data_Automation
 ├── ma_scraper.py
-├── sb_Mahkamah Agung.py
+├── sb_Mahkamah_Agung.py
 ├── downloads/
-├── downloaded_files/
-└── README.md
-```
+└── downloaded_files/
 
-## Installation
+Getting Started
 
-### Clone Repository
-
-```bash
+bash
 git clone https://github.com/Franlyjoshua/Data_Automation.git
 cd Data_Automation
-```
 
-### Create Virtual Environment
-
-```bash
 python -m venv venv
-```
-
-### Activate Virtual Environment
-
-Windows:
-
-```bash
 venv\Scripts\activate
-```
 
-### Install Dependencies
-
-```bash
 pip install -r requirements.txt
-```
 
-## Usage
 
-Run the automation script:
+Run the automation:
 
-```bash
+bash
 python ma_scraper.py
-```
-
-or
-
-```bash
-python "sb_Mahkamah Agung.py"
-```
-
-The automation will perform the configured workflow and store downloaded files in the designated folders.
-
-## Use Case
-
-This project demonstrates practical skills in:
-
-* Process Automation
-* Web Scraping
-* Browser Automation
-* Python Development
-* Data Collection
-* Workflow Optimization
 
 ## Author
 
 Franly Joshua Ngantung
-
-Information Technology Graduate
-
-GitHub: https://github.com/Franlyjoshua
